@@ -1,0 +1,118 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "12adf1d6b8545ec0730603d9b6b106a4",
+    "packages": [
+        {
+            "name": "aferrandini/phpqrcode",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/aferrandini/PHPQRCode.git",
+                "reference": "3c1c0454d43710ab5bbe19a51ad4cb41c22e3d46"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/aferrandini/PHPQRCode/zipball/3c1c0454d43710ab5bbe19a51ad4cb41c22e3d46",
+                "reference": "3c1c0454d43710ab5bbe19a51ad4cb41c22e3d46",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "PHPQRCode": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ariel Ferrandini",
+                    "email": "arielferrandini@gmail.com",
+                    "homepage": "http://www.ferrandini.com/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "PHPQRCode porting and changed for PHP 5.3 compatibility",
+            "homepage": "https://github.com/aferrandini/PHPQRCode",
+            "keywords": [
+                "barcode",
+                "php",
+                "qrcode"
+            ],
+            "abandoned": "endroid/qr-code",
+            "time": "2013-07-08T09:39:08+00:00"
+        },
+        {
+            "name": "mike42/escpos-php",
+            "version": "v2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mike42/escpos-php.git",
+                "reference": "5e904fed73704dcf22c4c4db2f31b329fb7a0b5f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mike42/escpos-php/zipball/5e904fed73704dcf22c4c4db2f31b329fb7a0b5f",
+                "reference": "5e904fed73704dcf22c4c4db2f31b329fb7a0b5f",
+                "shasum": ""
+            },
+            "require": {
+                "ext-mbstring": "*",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "guzzlehttp/guzzle": "^5.3",
+                "phpunit/phpunit": "^4.8",
+                "squizlabs/php_codesniffer": "^3.2"
+            },
+            "suggest": {
+                "ext-gd": "Used for image printing if present.",
+                "ext-imagick": "Will be used for image printing if present. Required for PDF printing or use of custom fonts.",
+                "guzzlehttp/guzzle": "Allows the use of the ApiConnector to send print jobs over HTTP."
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Mike42\\": "src/Mike42"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Michael Billington",
+                    "email": "michael.billington@gmail.com"
+                }
+            ],
+            "description": "PHP receipt printer library for use with ESC/POS-compatible thermal and impact printers",
+            "homepage": "https://github.com/mike42/escpos-php",
+            "keywords": [
+                "ESC-POS",
+                "driver",
+                "escpos",
+                "print",
+                "receipt"
+            ],
+            "time": "2019-02-17T05:27:07+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

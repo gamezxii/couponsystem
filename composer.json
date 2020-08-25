@@ -1,0 +1,6 @@
+{
+    "require": {
+        "aferrandini/phpqrcode": "^1.0",
+        "mike42/escpos-php": "^2.1"
+    }
+}
