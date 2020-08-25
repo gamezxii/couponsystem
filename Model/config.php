@@ -2,12 +2,12 @@
 session_start();
 /* DATABASE CONFIGURATION */
 define('DB_SERVER', 'localhost');
-define('DB_USERNAME', 'korn');
-define('DB_PASSWORD', 'lasergamE1234');
+define('DB_USERNAME', '');
+define('DB_PASSWORD', '');
 define('DB_DATABASE', 'cashcard');
 //define("BASE_URL", "http://127.0.0.1/cashcard"); 
 
-define("BASE_URL", "https://fountaintreeresort.com/game/cashcard"); 
+define("BASE_URL", ""); 
 
 function getDB() 
 {
